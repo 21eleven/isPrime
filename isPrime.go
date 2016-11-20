@@ -25,8 +25,6 @@ func main() {
 			fmt.Println("Not Prime")
 			return
 		}
-		//var float_num float64 = num
-		//var pointFive float64 = 0.5
 		sqr := math.Sqrt(fnum)
 		isqr :=  int(math.Ceil(sqr))
 		for i := 3; i<= isqr; i+=2 {
